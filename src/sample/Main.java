@@ -42,6 +42,7 @@ public class Main extends Application {
             }
             Platform.runLater(()->
                     internalFn1());
+            Platform.runLater( ()-> controllerSample.label2.setText("lyambda label2") );
             try {
                 Thread.sleep(3_000);
             } catch (InterruptedException e) {

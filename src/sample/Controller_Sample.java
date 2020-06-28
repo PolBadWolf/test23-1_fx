@@ -11,6 +11,7 @@ public class Controller_Sample implements Initializable {
 
     @FXML
     public Label label1;
+    public Label label2;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
